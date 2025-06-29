@@ -1,6 +1,0 @@
-2025-05-15 19:55:34,797 - INFO - Error loading model: [Errno 2] No such file or directory: 'C:\\Users\\chino\\Downloads\\fraud_model\\transactions_data\\fraud_xgbmodel.pkl'
-2025-05-15 19:56:36,804 - INFO - Warning: Model does not have feature_names_in_. Please specify FEATURE_COLUMNS manually.
-2025-05-15 19:56:36,804 - INFO - Monitoring C:\Users\chino\Downloads\fraud_model\transactions_data for new CSV files...
-2025-05-15 20:02:25,389 - INFO - Subsampling 10.0% of non-fraud data, keeping all fraud cases...
-2025-05-15 20:02:33,640 - INFO - Plotting for CASH_OUT: 227359 rows
-2025-05-15 20:02:37,302 - INFO - Plotting for TRANSFER: 56853 rows
