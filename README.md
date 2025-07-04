@@ -6,7 +6,7 @@
 
 This project develops a machine learning model to detect fraudulent transactions using the PaySim synthetic dataset, which simulates mobile money transactions. The dataset contains 6.3M transactions with a ~0.13% fraud rate, subsampled to ~193,097 rows (1.28% fraud) for efficiency. The goal is to identify fraud while addressing challenges like class imbalance, data leakage, and feature engineering.
 
-XGBoost is used to achieve realistic performance metrics (precision ~0.85, recall ~0.80, F1-score ~0.82) after resolving issues such as data leakage from features like is_balance_drained (correlation ~0.989 with isFraud).
+XGBoost is used to achieve performance metrics (precision ~0.85, recall ~0.80, F1-score ~0.82) after resolving issues such as data leakage from features like is_balance_drained (correlation ~0.989 with isFraud).
 Features
 
 Numerical: oldbalanceOrg, newbalanceOrig, oldbalanceDest, newbalanceDest, hour, log_amount, step, amount.
